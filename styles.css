@@ -55,22 +55,21 @@ body {
 .cart img {
     width: 25px;
 }
-
-/* .badge{
+.numbercart{
+    position: relative;
+}
+.num{
     position: absolute;
-    width: 15px;
-    height: 15px;
-    right: 321px;
-    top: 2%;
-    font-size: 10px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
     color: white;
-
-} */
+    background-color: red;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    text-align: center;
+    right: -6px;
+    top:-6px;  
+}
 
 .login {
     display: flex;
